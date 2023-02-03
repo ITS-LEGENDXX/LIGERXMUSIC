@@ -25,7 +25,7 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="🥀 𝕌ᴘᴅᴀᴛ𝔼 🥀", url=f"https://t.me/evilschattingworld"),
+                text="🥀 𝕌ᴘᴅᴀᴛ𝔼 🥀", url=f"https://t.me/+6bbRimjJthdlMWQ1"),
             InlineKeyboardButton(
                 text="🥀 𝕊ᴜᴘᴘᴏʀ𝕋 🥀", url=f"{config.SUPPORT_GROUP}"
             ),
@@ -48,14 +48,14 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             ),
         ],
         [
-            InlineKeyboardButton(text="🥀 𝕌ᴘᴅᴀᴛ𝔼 🥀", url=f"https://t.me/evilschattingworld"),
+            InlineKeyboardButton(text="🥀 𝕌ᴘᴅᴀᴛ𝔼 🥀", url=f"https://t.me/+6bbRimjJthdlMWQ1"),
             InlineKeyboardButton(
                 text="🥀 𝕊ᴜᴘᴘᴏʀ𝕋 🥀", url=f"{config.SUPPORT_GROUP}"
             ),
         ],
         [
             InlineKeyboardButton(
-                    text="𓊈𒆜🎼𝔻eͥѵeͣlͫ𐍉קeℝ🎼𒆜𓊉", url=f"https://t.me/Pathan78600"
+                    text="𓊈𒆜★彡[ᴏᴡɴᴇʀ]彡★𓊉", url=f"https://t.me/JitKing8099"
                 )
         ],
      ]
