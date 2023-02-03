@@ -9,17 +9,17 @@ load_dotenv()
 
 API_ID = int(getenv("API_ID", "16201655"))
 API_HASH = getenv("API_HASH", "440ba807d2cdf696ca498d441e2a6b29")
-BOT_TOKEN = getenv("BOT_TOKEN", "5907478330:AAHIAuaqwfErLFVNlvq0HYtQu1tl6KW9Quo")
+BOT_TOKEN = getenv("BOT_TOKEN", "6123706535:AAHqdpJjR52YCgB-vh_IQM-6sQ-u4QyYFpY")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://FallenXMusic:FallenXMusic0@cluster0.xotugz6.mongodb.net/?retryWrites=true&w=majority")
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001835356047"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "˹ᴠɪꜱʜ ✘ ")
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-"))
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "˹ᴊɪᴛ ✘ ᴍᴜꜱɪᴄ˼ 『𝄟͢』 ")
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "5627467073").split())
+    map(int, getenv("OWNER_ID", "").split())
 )
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/retroradicalgroup")
+    "SUPPORT_CHANNEL", "https://t.me/")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/evilschattingworld")
+    "SUPPORT_GROUP", "https://t.me/")
 
 DURATION_LIMIT_MIN = int(
     getenv("DURATION_LIMIT", "59006099")
@@ -75,7 +75,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 )
 
 
-STRING1 = getenv("STRING_SESSION", "BQB6Ym-Fkugn1pIGf-XRi1Gu5qGfvxwqEoepiD_Qj8CLtHhY6hHT1w6tgd8ZrcLVO8yVLnyK9Kmz-_pdXKUwFtsZtdLCK63vERLk7qzEZ4NXqVZQK3lXTNTC3bBVEBDBBW4UiQaLICdSiduqx6ixGndXt6XATzCgyAkHGkbrta0QN_zI8SomJdDAc4uDJtD_J_K2teLNbYJxpmQlYtAKlDZzyNfXr9nFx3CKpwUZZk2K-rUb9S254VXqDPyUqUXyfUpvOyN4qT_qx2UCaJRsM6C_eYCRp_Sk18ZXLxTMxqlS_rh0kPSmVsVVoz6ttUwPpgt1QY4rTKbD2ikl9wm27B2dAAAAAUbi-ooA")
+STRING1 = getenv("STRING_SESSION", "AQCOLTDI8XuJa-Pc-9qjOGeEZj2ALdgHwMhW_T70r524PI4SvISKOo4c8zNZ9k0Cq23KGItlpgTvUoqmxOkBr6xoMYOeg5H8z3GoPHuTFKKc6i-MvGR4Q9KoOoCybOBQbcOLfl25WuB0GAqLWkR7TLSFLFLt6FVOZf0bUy_KaVSt5cynl-g7OglYA_h_7eAXwqTVPMDgsd0ZdAou0iSO-eikOkMTCqzDqyQRGdRbwebWI0OIWz4b1WW7vSml_sVR-Xyc_TaaEqZKs3FAdAUwlYcAJUw81fg7ZdDwhEr7ZmlLqoqRbU0FWryibwWbBqyF4H799BATsDRSvcE80Lz6roURAAAAAVmCw08A")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
