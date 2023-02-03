@@ -17,9 +17,9 @@ OWNER_ID = list(
     map(int, getenv("OWNER_ID", "").split())
 )
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/")
+    "SUPPORT_CHANNEL", "https://t.me/+6bbRimjJthdlMWQ1")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/")
+    "SUPPORT_GROUP", "https://t.me/+6bbRimjJthdlMWQ1")
 
 DURATION_LIMIT_MIN = int(
     getenv("DURATION_LIMIT", "59006099")
