@@ -11,7 +11,7 @@ API_ID = int(getenv("API_ID", "16201655"))
 API_HASH = getenv("API_HASH", "440ba807d2cdf696ca498d441e2a6b29")
 BOT_TOKEN = getenv("BOT_TOKEN", "6123706535:AAHqdpJjR52YCgB-vh_IQM-6sQ-u4QyYFpY")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://FallenXMusic:FallenXMusic0@cluster0.xotugz6.mongodb.net/?retryWrites=true&w=majority")
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001854254056"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "˹ᴊɪᴛ ✘ ᴍᴜꜱɪᴄ˼ 『𝄟͢』 ")
 OWNER_ID = list(
     map(int, getenv("OWNER_ID", "").split())
